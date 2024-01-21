@@ -4,7 +4,7 @@
   <div class="post-body"><%= post.body %></div>
   <div class="post-author">
     <% if user_signed_in? %>
-      <%= @post.user.username %>
+      <%= post.user.username %>
     <% else %>
       Anonymous
     <% end %>
