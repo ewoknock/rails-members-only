@@ -1,6 +1,6 @@
 <% @posts.each do |post| %>
 <div class="post-box">
-  <div class="post-title"><%= post.title %></div>
+  <h4><%= post.title %></h4>
   <div class="post-body"><%= post.body %></div>
   <div class="post-author">
     <% if user_signed_in? %>
