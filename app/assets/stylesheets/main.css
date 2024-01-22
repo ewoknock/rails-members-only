@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.right-header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-button{
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(49, 139, 255);
+    color: white;
+    padding: .5rem;
+}

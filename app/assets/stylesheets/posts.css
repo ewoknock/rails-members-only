@@ -5,8 +5,6 @@
     padding: 1rem;
 }
 
-
-
 .post-box{
     display: flex;
     flex-direction: column;
@@ -28,4 +26,9 @@
     gap: 1.5rem;
     margin-top: 1rem;
     align-self: flex-end;
+}
+
+/* STYLES FOR NEW POST */
+.new-post{
+    padding: 0rem 1rem;
 }

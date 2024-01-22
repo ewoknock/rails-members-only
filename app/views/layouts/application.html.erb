@@ -12,11 +12,13 @@
   <body>
       <section class="header">
         <div class="left-header">
-            <div class=logo></div>
+            <h1>Hello, Members!</h1>
         </div>
-      <div class="right-header">
-      <%= button_to "Sign Out", destroy_user_session_path, method: :delete %>
-      </div>
+        <div class="right-header">
+
+        <%= button_to "New Post", new_post_path, method: :get, class: "header-button" %>
+        <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: "header-button" %>
+        </div>
     </section>
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
